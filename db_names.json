@@ -1,0 +1,20 @@
+{
+	"admin": {
+		"email": "jatin.chauhan@abc.com",
+		"all_stats_to_email": "jatin.chauhan@abc.com,kuldeepsingh.chauhan@abc.com",
+		"server_host": "your_smtp_host_name",
+		"server_port": "your_smtp_host_port_number"
+	},
+	"db_name_1": {
+		"name": "DB Name 1",
+		"email": "jatin.chauhan@abc.com"
+	},
+	"db_name_2": {
+		"name": "DB Name 2",
+		"email": "kuldeepsingh.chauhan@abc.com"
+	},
+	"mail_format": {
+		"subject": "Commercial Datalake: HDFS Stats",
+		"body": "<meta http-equiv='Content-Type' content='text/html; charset=utf-8'><html><body>Hi Team,<br><br>PFA the HDFS utilization stats for your respective franchises.<br><br><strong>Action items:</strong><br><ul>	<li>Franchise leads should coordinate with their team to free up the HDFS space as required.</li>	<li>Please observe the text input format table in the attached html for your respective franchise and convert them to parquet format tables(Only reference tables are exception of this rule).</li></ul><br><strong>Note: This is a system generated mail please do not reply on this mail.</strong><br><br>Regards,<br><span style='color: coral'>ZS Mabi Ops Team</span></body></html>"
+	}
+}
