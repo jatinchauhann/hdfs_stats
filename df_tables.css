@@ -1,0 +1,58 @@
+.mystyle {
+    font-size: 11pt;
+    font-family: Arial;
+    border-collapse: collapse;
+    border: 1px solid silver;
+
+}
+
+.mystyle td, th {
+    padding: 5px;
+}
+
+.mystyle tr:nth-child(even) {
+    background: #c2d9ff;
+}
+
+.mystyle tr:hover {
+    background: #d1e2ff;
+    cursor: pointer;
+}
+
+th {
+    background: #b5cef5;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+
+.border-text {
+    border-radius: 30px;
+    border:3px;
+    border-style:solid;
+    border-color:#d1e2ff;
+    background-color: #d1e2ff;
+    padding: 1em;
+    color: #000000;
+    font-size:130%;
+    padding: 20px;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.title-text {
+    color: #3263b3;
+    font-size: 16pt;
+}
+
+.text-blue {
+    color: #3263b3
