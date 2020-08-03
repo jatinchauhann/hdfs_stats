@@ -9,9 +9,6 @@
 # Version History :- VERSION 1.4
 # ----------------------
 
-# To run this file use the command:
-# spark2-submit --master yarn --deploy-mode client --queue MABI_LOAD --num-executors 5 --executor-memory 1g  --executor-cores 5 /home/svc-cop-mabiload-p/MABI_Analytics/HDFS_StatsTool/generate_hdfs_stats.py --jsonconfig  /home/svc-cop-mabiload-p/MABI_Analytics/HDFS_StatsTool/db_names.json --cssfile /home/svc-cop-mabiload-p/MABI_Analytics/HDFS_StatsTool/df_table.css
-
 import os
 import io
 import sys
